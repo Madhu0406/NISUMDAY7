@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.fancy-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.fancy-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+}
